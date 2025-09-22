@@ -26,7 +26,7 @@ public class ContactTest extends BaseClass {
 		System.out.println("Execute modifyContactTest");
 	}
 	
-	@Test
+	@Test(groups = "regressionTest")
 	public void deleteContactTest() {
 		System.out.println("Execute DeleteContact");
 	}
