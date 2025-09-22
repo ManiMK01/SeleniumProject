@@ -2,8 +2,10 @@ package Package_1;
 
 import org.testng.annotations.Test;
 
-public class ContactTest {
-	@Test(groups = "smokeTest")
+import baseClass.BaseClass;
+
+public class ContactTest extends BaseClass {
+	@Test(groups = {"regressionTest","smokeTest"})
 	public void createContactTest() {
 		System.out.println("Execute createContactTest");
 		

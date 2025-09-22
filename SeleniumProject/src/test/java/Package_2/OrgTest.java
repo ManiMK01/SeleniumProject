@@ -2,7 +2,9 @@ package Package_2;
 
 import org.testng.annotations.Test;
 
-public class OrgTest {
+import baseClass.BaseClass;
+
+public class OrgTest extends BaseClass {
 
 	@Test(groups = {"regressionTest","smokeTest"})
 	public void createOrgTest() {
