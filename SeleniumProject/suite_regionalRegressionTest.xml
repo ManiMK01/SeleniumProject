@@ -3,8 +3,11 @@
 <suite name="Suite">
   <test thread-count="5" name="Test">
     <classes>
-      <class name="Package_1.ContactTest"/>
-      
+      <class name="Package_1.ContactTest">
+      <methods>
+      	<include name="createContactTest"></include>
+      </methods>
+      </class>
     </classes>
   </test> <!-- Test -->
 </suite> <!-- Suite -->
