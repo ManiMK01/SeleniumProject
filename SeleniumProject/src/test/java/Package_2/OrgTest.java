@@ -2,7 +2,7 @@ package Package_2;
 
 import org.testng.annotations.Test;
 
-import baseClass.BaseClass;
+import GenericUtility.BaseClass;
 
 public class OrgTest extends BaseClass {
 

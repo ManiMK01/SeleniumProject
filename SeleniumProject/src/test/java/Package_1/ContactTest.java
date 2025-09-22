@@ -2,7 +2,7 @@ package Package_1;
 
 import org.testng.annotations.Test;
 
-import baseClass.BaseClass;
+import GenericUtility.BaseClass;
 
 public class ContactTest extends BaseClass {
 	@Test(groups = {"regressionTest","smokeTest"})
@@ -24,5 +24,10 @@ public class ContactTest extends BaseClass {
 	@Test(groups = {"regressionTest","smokeTest"})
 	public void modifyContactTest() {
 		System.out.println("Execute modifyContactTest");
+	}
+	
+	@Test
+	public void deleteContactTest() {
+		System.out.println("Execute DeleteContact");
 	}
 }
