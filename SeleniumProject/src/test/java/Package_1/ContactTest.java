@@ -30,4 +30,8 @@ public class ContactTest extends BaseClass {
 	public void deleteContactTest() {
 		System.out.println("Execute DeleteContact");
 	}
+	@Test(groups = "regressionTest")
+	public void newContactTest() {
+		System.out.println("Execute newContact");
+	}
 }
